@@ -1,0 +1,193 @@
+body {
+    background-color: #BCFFB9;
+}
+
+#mainIntro,
+#mainContactDiv,
+#mainServices,
+#projectsDiv,
+#aboutMeDiv, #mission {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5FDB0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 7%;
+    border-radius: 20px;
+}
+
+.btn-outline-info:hover {
+    background-color: #68D4B1 !important;
+}
+
+#navigationBar {
+    text-align: right;
+    background-color: #68D4B1;
+    height: 120px;
+    padding: 10px;
+}
+
+#welcome{
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial;
+}
+
+#navigationBar a {
+    padding: 15px;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#navigationBar a:hover {
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+#logo {
+    float: left;
+    height: 100px;
+    width: 200px;
+}
+
+#myPhoto {
+    height: 200px;
+    width: 200px;
+}
+
+#bvLogo {
+    height: 100px;
+    width: 450px;
+}
+
+/* https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png*/
+#cImage{
+    height:128px;
+    width:128px;
+}
+
+/* https://www.freepnglogos.com/uploads/javascript-png/logo-html5-js-css3-png-transparent-logo-4.png */
+
+#webImage{
+    height: 150px;
+    width: 250px;
+}
+
+/* https://www.pngwing.com/en/search?q=User+interface+design */
+#uiDesign{
+    height:200px;
+}
+
+/* https://www.pngwing.com/en/free-png-zoupl */
+#sql{
+    height: 200px;
+}
+
+#bvTitle,
+#realEstateTitle,
+#reminderTitle,
+#missionStatementTitle,
+#welcomeTitle,
+h1,#emailSpan,
+#phoneSpan,
+label {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#bvProjectText,
+#realEstateProjectText,
+#reminderText,
+#aboutMePara {
+    text-align: justify;
+}
+
+#mainServices li {
+    text-align: left;
+    margin-left: 260px;
+}
+
+#mainContactDiv li {
+    text-align: left;
+    margin-left: 35%;
+}
+
+#formContact {
+    width: 60%;
+    text-align: right;
+    margin-left: 5%;
+}
+
+#alternate {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #F5FDB0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+/* CSS Fade-in code below from: https://medium.com/cloud-native-the-gathering/how-to-use-css-to-fade-in-and-fade-out-html-text-and-pictures-f45c11364f08 */
+
+.fade-in {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
