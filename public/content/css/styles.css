@@ -64,27 +64,23 @@ body {
     width: 450px;
 }
 
-/* https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png*/
 #cImage{
     height:128px;
     width:128px;
 }
-
-/* https://www.freepnglogos.com/uploads/javascript-png/logo-html5-js-css3-png-transparent-logo-4.png */
 
 #webImage{
     height: 150px;
     width: 250px;
 }
 
-/* https://www.pngwing.com/en/search?q=User+interface+design */
 #uiDesign{
     height:200px;
 }
 
-/* https://www.pngwing.com/en/free-png-zoupl */
 #sql{
     height: 200px;
+    margin-left: 8%;
 }
 
 #bvTitle,
@@ -109,6 +105,19 @@ label {
 #mainServices li {
     text-align: left;
     margin-left: 260px;
+}
+
+#mainServices p{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#mainServices div{
+    border: 2px dashed;
+    border-color: #68D4B1;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 #mainContactDiv li {
