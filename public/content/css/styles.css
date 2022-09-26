@@ -1,7 +1,14 @@
+/* Filename: styles.css
+Student Name: Siddharth Verma
+Student ID: 301207026
+Date: Sep 19, 2022 */
+
+
 body {
     background-color: #BCFFB9;
 }
 
+/* Styling all div elements */
 #mainIntro,
 #mainContactDiv,
 #mainServices,

@@ -1,3 +1,8 @@
+// Filename: server.js
+// Student Name: Siddharth Verma
+// Student ID: 301207026
+// Date: Sep 19, 2022
+
 import cookieParser from "cookie-parser";
 import express from "express";
 import logger from "morgan";
