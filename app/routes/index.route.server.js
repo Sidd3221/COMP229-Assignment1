@@ -3,7 +3,7 @@
 // Student ID: 301207026
 // Date: Sep 19, 2022
 
-// Importing router and all website pages in order to render them using Express routes
+// Importing router from express and the functions that render the website pages.
 
 import { Router } from "express";
 import { homePage, aboutPage, servicesPage, contactPage, projectsPage } from "../controllers/index.controller.server.js";
@@ -18,5 +18,5 @@ router.get('/contact', contactPage);
 router.get('/projects', projectsPage);
 router.get('/services', servicesPage);
 
-
+// Exporting router
 export default router;

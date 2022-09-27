@@ -3,13 +3,13 @@ Student Name: Siddharth Verma
 Student ID: 301207026
 Date: Sep 19, 2022 -->
 
-<!-- This is the main HTML template that will format all website pages as HTML and enable loading of all  pages -->
+<!-- This is the main HTML template that will format all website pages as HTML and enable the browser to display all pages -->
 <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
-    <!-- EJS variable to allow for dynamic loading of page title depending on which website page is open.  --> 
+    <!-- EJS variable to allow for dynamic loading of page title depending on which website page is open.  -->
     <title>
         <%= title%>
     </title>
@@ -24,15 +24,15 @@ Date: Sep 19, 2022 -->
 </head>
 
 <body class="fade-in">
+    <!-- Loading header.ejs  -->
     <%- include('components/header'); %>
-        <!-- Loading header.ejs  -->
-        <%- include('content/' + page); %>
-            <!-- EJS variable to allow for dynamic page loading -->
-            <br><br>
-            <footer class="fade-in">
-                <%- include('components/footer'); %>
-                    <!-- Loading footer.ejs -->
-            </footer>
-</body>
 
+    <!-- EJS variable to allow for dynamic page loading -->
+    <%- include('content/' + page); %>
+    <br><br>
+    <footer>
+        <!-- Loading footer.ejs -->
+        <%- include('components/footer'); %>
+    </footer>
+</body>
 </html>
