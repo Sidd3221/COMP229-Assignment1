@@ -31,8 +31,9 @@ app.use(session({
     resave: false
 }));
 
+//Using the router that was exported from index.route.server.js
 app.use('/', indexRouter);
 
-// Declaring the constants for the appropriate port
+// Declaring the constants for the appropriate port to be used
 const port = 3000;
-const server = app.listen(process.env.PORT || port,() => console.log(`Server started on port ${port}`));
+app.listen(process.env.PORT || port,() => console.log(`Server started on port ${port}`));

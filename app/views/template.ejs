@@ -18,8 +18,9 @@ Date: Sep 19, 2022 -->
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Google Fonts scripts -->
+    <!-- Google Fonts script -->
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;700&display=swap" rel="stylesheet">
+    <!-- My CSS -->
     <link rel="stylesheet" href="./content/css/styles.css">
 </head>
 
@@ -28,7 +29,7 @@ Date: Sep 19, 2022 -->
     <%- include('components/header'); %>
 
     <!-- EJS variable to allow for dynamic page loading -->
-    <%- include('content/' + page); %>
+    <%- include(`content/${page}`); %>
     <br><br>
     <footer>
         <!-- Loading footer.ejs -->

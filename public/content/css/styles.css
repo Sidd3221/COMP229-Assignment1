@@ -24,6 +24,7 @@ body {
     border-radius: 20px;
 }
 
+/* Styles for the Home page */
 .btn-outline-info:hover {
     background-color: #68D4B1 !important;
 }
@@ -61,16 +62,13 @@ body {
     width: 200px;
 }
 
+/* Styling for my photo on the about page */
 #myPhoto {
     height: 200px;
     width: 200px;
 }
 
-#bvLogo {
-    height: 100px;
-    width: 450px;
-}
-
+/* Styling for the photos and text on services page */
 #cImage{
     height:128px;
     width:128px;
@@ -90,6 +88,25 @@ body {
     margin-left: 8%;
 }
 
+#mainServices p{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#mainServices div{
+    border: 2px dashed;
+    border-color: #68D4B1;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#mainServices li {
+    text-align: left;
+    margin-left: 260px;
+}
+
+/* Styling all headings, titles, labels and paragraphs*/
 #bvTitle,
 #realEstateTitle,
 #reminderTitle,
@@ -109,24 +126,7 @@ label {
     text-align: justify;
 }
 
-#mainServices li {
-    text-align: left;
-    margin-left: 260px;
-}
-
-#mainServices p{
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-#mainServices div{
-    border: 2px dashed;
-    border-color: #68D4B1;
-    padding: 20px;
-    border-radius: 20px;
-}
-
+/* Styling contact page */
 #mainContactDiv li {
     text-align: left;
     margin-left: 35%;
@@ -142,6 +142,7 @@ label {
     text-decoration: underline;
 }
 
+/* Styling Footer section */
 footer {
     text-align: center;
     background-color: #F5FDB0;
@@ -150,7 +151,7 @@ footer {
     padding: 10px;
 }
 
-/* CSS Fade-in code below from: https://medium.com/cloud-native-the-gathering/how-to-use-css-to-fade-in-and-fade-out-html-text-and-pictures-f45c11364f08 */
+/* CSS Fade-in animation code below from: https://medium.com/cloud-native-the-gathering/how-to-use-css-to-fade-in-and-fade-out-html-text-and-pictures-f45c11364f08 */
 
 .fade-in {
     animation: fadeIn ease 2s;
